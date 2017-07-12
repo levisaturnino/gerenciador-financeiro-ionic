@@ -1,3 +1,5 @@
+import { ModalContasPage } from './../pages/modal-contas/modal-contas';
+import { ContasPage } from './../pages/contas/contas';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -13,6 +15,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
+    ContasPage,
+         ModalContasPage,
+
     ListPage
   ],
   imports: [
@@ -23,6 +28,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
+     ContasPage,
+     ModalContasPage,
     ListPage
   ],
   providers: [
